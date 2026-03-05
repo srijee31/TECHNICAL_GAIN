@@ -26,15 +26,16 @@ The Shield: All data is scrambled using that key.
 HTTP: Like shouting your bank password across a crowded coffee shop. Everyone hears you. 📢
 HTTPS: Like whispering that password into a secure phone line that only the bank can hear. 🤫
 
-⚠️ Why This Matters for Backend/QA
-In modern development, HTTP is no longer an option.
-SEO: Google penalizes sites that don't use HTTPS.
-Browser Warnings: Chrome/Safari will show a giant "NOT SECURE" red flag to users.
-API Security: If your FastAPI or Node.js backend uses HTTP, your JWT Tokens or Session IDs can be stolen easily.
-
+⚔️ Comparison: HTTP vs HTTPS
+PORT: * HTTP: Uses Port 80
+HTTPS: Uses Port 443
+DATA FORMAT: * HTTP: Plain Text (Readable by anyone)
+HTTPS: Encrypted (Gibberish to hackers)
+TRUST LEVEL: * HTTP: Zero 🚩 (Browsers show "Not Secure")
+HTTPS: High ✅ (Browsers show the Lock 🔒)
+SPEED: * HTTP: Slightly faster (no processing needed)
+HTTPS: Fast (modern CPUs handle encryption in milliseconds)
 
 💡 One Killer Line to Remember:
 HTTP sends the message; HTTPS locks the envelope.
-
-Now that we know how to secure the connection, would you like to explore "API Methods" (GET vs. POST)—the specific ways we tell the server what to do with our data?
 
