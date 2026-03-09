@@ -8,7 +8,7 @@ By default, the internet is "stateless"—it has the memory of a goldfish. Every
 
 
 
----
+--- 
 
 ## 🏨 1️⃣ Session-Based Authentication (The Hotel Key)
 Imagine checking into a hotel. You show your ID, and they give you a **Room Key (Session ID)**. 
